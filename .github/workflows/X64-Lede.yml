@@ -4,7 +4,7 @@ name: X64-Lede
 on:
   #自动编译：每天早上4点
   schedule:
-    - cron: 0 20 * * *
+    - cron: 0 20 1 * *
   #手动编译
   workflow_dispatch:
 
@@ -26,6 +26,6 @@ jobs:
       #默认密码，仅作展示，请勿乱改
       OWRT_PW: password
       #默认地址
-      OWRT_IP: 192.168.10.1
+      OWRT_IP: 192.168.9.11
       #默认源码
       OWRT_URL: https://github.com/coolsnowwolf/lede.git
