@@ -20,7 +20,7 @@ CONFIG_PACKAGE_ip6tables-extra=y
 CONFIG_PACKAGE_ip6tables-mod-nat=y
 #增加插件
 CONFIG_PACKAGE_luci-app-upnp=y
-#CONFIG_PACKAGE_luci-app-diskman=y
+CONFIG_PACKAGE_luci-app-diskman=n
 CONFIG_PACKAGE_luci-app-turboacc=y
 CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_luci-app-autoreboot=y
@@ -43,3 +43,4 @@ CONFIG_PACKAGE_luci-app-filetransfer=n
 #CONFIG_PACKAGE_kmod-usb-net=n
 #CONFIG_PACKAGE_kmod-usb-storage=n
 CONFIG_VMDK_IMAGES=n
+CONFIG_PACKAGE_kmod-amazon-ena=n
