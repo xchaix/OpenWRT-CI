@@ -31,6 +31,7 @@ CONFIG_PACKAGE_luci-app-turboacc=y
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-uugamebooster=n
 CONFIG_PACKAGE_luci-app-frps=y
+CONFIG_PACKAGE_luci-app-ddns-go=y
 #删除插件
 CONFIG_PACKAGE_luci-app-samba4=n
 CONFIG_PACKAGE_luci-app-vsftpd=n
@@ -46,3 +47,4 @@ CONFIG_PACKAGE_luci-app-filetransfer=n
 CONFIG_PACKAGE_luci-app-unblockmusic=n
 CONFIG_PACKAGE_luci-app-accesscontrol=n
 CONFIG_PACKAGE_luci-app-fileassistant=n
+
