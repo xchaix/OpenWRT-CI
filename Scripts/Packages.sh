@@ -54,3 +54,5 @@ UPDATE_VERSION() {
 }
 
 UPDATE_VERSION "sing-box" "1.9.0-rc.12" "14ddbee9a648e45b831f78d941ac0b2a7fc7f99ff5649964356c71a8d4b6cb6e"
+
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
